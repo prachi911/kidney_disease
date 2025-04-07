@@ -29,11 +29,6 @@ A deep learning-powered Streamlit app that classifies kidney conditions (Normal,
 
 ---
 
-## 📸 Preview
-
-![App Screenshot](assets/kidney_app_preview.png)
-
----
 
 ## ⚙️ Setup Instructions
 
