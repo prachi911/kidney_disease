@@ -1,15 +1,21 @@
-# 🧠 Kidney Disease Classifier
+# 🧠 Kidney Disease Classifier | Course Project CAP-306
 
-A deep learning-powered Streamlit app that classifies kidney conditions (Normal, Cyst, Tumor, Stone) from medical images. The app also provides estimated recovery time and smart insights based on predictions to assist in early detection and awareness.
+A deep-learning-based medical image classifier application classifying Computed Tomography images into one of 4 categories(Health/Normal, Cyst, Tumor, or Stone). The application aims to assist doctors with diagnoses by identifying features and details that might get overlooked, acting as a second opinion. The application also provides a number of other features to assist in treatment and recovery. 
 
-> ⚕️ Your AI assistant for preliminary kidney diagnosis.
+---
+
+## The numbers: 
+input shape: (224, 224, 3)
+Final accuracy: 98.84% 
+Trainable Parameters: 488,580
+Non-trainable Parameters: 960
 
 ---
 
 ## 🩺 Features
-
-- 📷 Upload kidney scan images (CT/MRI)
-- 🧠 CNN-based classification:  
+- 📷 Upload kidney scan images (CT)
+- Global max-pooling for performance
+- 🧠 Custom CNN-based classification:  
   - Normal  
   - Cyst  
   - Tumor  
@@ -21,14 +27,12 @@ A deep learning-powered Streamlit app that classifies kidney conditions (Normal,
 ---
 
 ## 🚀 Tech Stack
-
-- **Frontend**: Streamlit
-- **Backend**: Python
+- **Language**: Python(3.9 recommended) 
+- **Frontend & backend**: StreamLit
 - **Model**: CNN (Convolutional Neural Network)
 - **Libraries**: TensorFlow / Keras, OpenCV, NumPy, Pillow
 
 ---
-
 
 ## ⚙️ Setup Instructions
 
@@ -39,9 +43,15 @@ git clone https://github.com/yourusername/kidney-disease-classifier.git
 cd kidney-disease-classifier
 ```
 ### 2. Create virtual environment (optional but recommended)
+using venv: 
 ```bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
+```
+using conda:
+```bash
+conda create -n env python=3.9
+conda activate env
 ```
 ### 3. install req
 ```bash
@@ -51,4 +61,11 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## co-contributors: 
+- Aditya Pratap Singh
+- Shruti Tiwari
+
 
