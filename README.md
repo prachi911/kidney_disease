@@ -5,10 +5,10 @@ A deep-learning-based medical image classifier application classifying Computed 
 ---
 
 ## The numbers: 
-input shape: (224, 224, 3)
-Final accuracy: 98.84% 
-Trainable Parameters: 488,580
-Non-trainable Parameters: 960
+input shape: (224, 224, 3)  
+Final accuracy: 98.84%   
+Trainable Parameters: 488,580   
+Non-trainable Parameters: 960   
 
 ---
 
